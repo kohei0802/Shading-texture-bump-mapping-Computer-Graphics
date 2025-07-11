@@ -1,7 +1,7 @@
 # Rasterizer. Converting 3D model to 2D images with texture and height map support (resulting images available in directory 'Resulting Images')
 My solution to Games101 HW3
 
-It takes the 3D model (a cow) and a texture map/bump map to create a high quality rendered image, with different rasterization options provided through command line.
+It takes the 3D model (a cow) and a texture map/bump map to create a high quality rendered image, with different shading options provided through command line.
 <img width="700" height="700" alt="output1" src="https://github.com/user-attachments/assets/584c9052-fbf9-4108-a178-7bee9f5dde86" />
 <img width="700" height="700" alt="output3" src="https://github.com/user-attachments/assets/abcc0508-b481-440a-bcb5-3eeadc533d2f" />
 <img width="700" height="700" alt="output4" src="https://github.com/user-attachments/assets/acc09bee-8bcf-41d9-a536-596de717920a" />
