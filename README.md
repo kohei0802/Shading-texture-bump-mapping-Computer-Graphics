@@ -1,9 +1,9 @@
-# Rasterizer. Converting 3D model to 2D images with texture and height map support (resulting images available on top directory)
+# Rasterizer. Converting 3D model to 2D images with texture and height map support (resulting images available in directory '/Resulting Images')
 My solution to Games101 HW3
 
 It takes the 3D model (a cow) and a texture map/bump map to create a high quality rendered image, with different rasterization options provided through command line.
 
-The resulting images are placed on the top directory for you to look at!
+You can download the resulting pictures from '/Resulting Images'.
 
 The main task
 1. Write different shader, e.g. Phong fragment shader with or without texture, bump mapping shader, displacement mapping shader.
