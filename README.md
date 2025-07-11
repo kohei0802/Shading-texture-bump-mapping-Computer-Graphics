@@ -10,7 +10,7 @@ It takes the 3D model (a cow) and a texture map/bump map to create a high qualit
 
 The main task
 1. Write different shader, e.g. Phong fragment shader with or without texture, bump mapping shader, displacement mapping shader.
-2. implement rasterizer::rasterize_triangle() to do draw each triangle by calling the shaders and doing zbuffering & MMSA.
+2. implement rasterizer::rasterize_triangle() to draw each triangle by calling the shaders and doing zbuffering & MSAA.
 3. Perspective correct interpolation is done for color, texture, positions, normals for accuracy.
 
 # Build
