@@ -1,4 +1,4 @@
-# Install script for directory: /home/kohei/Downloads/Hw3/Assignment3/Code
+# Install script for directory: /home/kohei/Downloads/temporary-redirection/tmp/Shading-texture-bump-mapping-Computer-Graphics
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -50,5 +50,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/kohei/Downloads/Hw3/Assignment3/Code/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/kohei/Downloads/temporary-redirection/tmp/Shading-texture-bump-mapping-Computer-Graphics/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
