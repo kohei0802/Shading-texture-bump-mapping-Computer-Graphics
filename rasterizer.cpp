@@ -1,7 +1,3 @@
-//
-// Created by goksu on 4/6/19.
-//
-
 #include <algorithm>
 #include "rasterizer.hpp"
 #include <opencv2/opencv.hpp>
@@ -261,8 +257,8 @@ static Eigen::Vector2f interpolate(float alpha, float beta, float gamma, const E
 //Screen space rasterization
 void rst::rasterizer::rasterize_triangle(const Triangle& t, const std::array<Eigen::Vector3f, 3>& view_pos) 
 {
-    // TODO: From your HW3, get the triangle rasterization code.
-    // TODO: Inside your rasterization loop:
+    // TODO: From Rasterization-occlusion project, get the triangle rasterization code.
+    // TODO: Inside the rasterization loop:
     //    * v[i].w() is the vertex view space depth value z.
     //    * Z is interpolated view space depth for the current pixel
     //    * zp is depth between zNear and zFar, used for z-buffer

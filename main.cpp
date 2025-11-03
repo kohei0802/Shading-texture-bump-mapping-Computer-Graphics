@@ -119,7 +119,7 @@ Eigen::Vector3f texture_fragment_shader(const fragment_shader_payload& payload)
 
     float p = 150;
 
-    Eigen::Vector3f color = texture_color;
+    // Eigen::Vector3f color = texture_color;
     Eigen::Vector3f point = payload.view_pos;
     Eigen::Vector3f normal = payload.normal;
 
